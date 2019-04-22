@@ -1,28 +1,26 @@
 {
-	"name": "fcc-exercise-tracker",
-	"version": "0.1.0",
-	"description": "A REST API project, part of Free Code Camp's curriculum",
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"dependencies": {
-		"cors": "^2.8.1",
-		"express": "^4.14.0",
-		"mongodb": "^2.2.14",
-		"mongoose": "^5.5.1",
-		"shortid": "^2.2.6"
-	},
-	"engines": {
-		"node": "6.9.1"
-	},
-	"repository": {
-		"url": "https://gomix.com/#!/project/welcome-project"
-	},
-	"license": "MIT",
-	"keywords": [
-		"node",
-		"gomix",
-		"express"
-	]
+  "name": "fcc-exercise-tracker",
+  "version": "1.0.0",
+  "description": "#### A microservice project, part of Free Code Camp's curriculum",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DawoodShahat/fcc-exercise-tracker.git"
+  },
+  "author": "Muhammad Dawood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DawoodShahat/fcc-exercise-tracker/issues"
+  },
+  "homepage": "https://github.com/DawoodShahat/fcc-exercise-tracker#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.3"
+  }
 }
